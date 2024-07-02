@@ -2,7 +2,6 @@ import HeaderComponent from "./components/Header";
 import img from "./assets/Rectangle438.svg";
 import { Card } from "antd";
 import Meta from "antd/es/card/Meta";
-import OurClientComponent from "./components/OurClient";
 import FooterComponent from "./components/Footer";
 import img1 from "./assets/cardheader.svg";
 import img2 from "./assets/2.svg";

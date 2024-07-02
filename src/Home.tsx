@@ -2,7 +2,6 @@ import { Button } from "antd";
 import "./App.css";
 import HeaderComponent from "./components/Header";
 import { AndroidOutlined } from "@ant-design/icons";
-import OurClientComponent from "./components/OurClient";
 import FooterComponent from "./components/Footer";
 
 export default function Home() {
