@@ -14,17 +14,17 @@ export default function AboutUs() {
   return (
     <>
       <HeaderComponent />
-      <div className="bg-[url('/AboutUs.svg')]  h-[auto] md:h-[480px] px-[80px] pt-[70px] md:pt-[186px] bg-cover">
-        <p className="text-[#1D1D1D] text-[white] text-[32px] md:text-[64px] font-semibold font-[Poppins] pb-[32px]">
+      <div className="bg-[url('/AboutUs.svg')]  h-[auto] md:h-[480px] px-[80px] pt-[70px] md:pt-[186px] pb-[40px] md:pb-[0px] bg-cover">
+        <p className=" text-[white] text-[28px] md:text-[64px] font-semibold font-[Poppins] pb-[32px]">
           TENTANG KAMI
         </p>
       </div>
       <div className="w-100% py-[50px] bg-[#FFFAF1] ">
         <div className="m-auto block w-[70%] border-b-[2px] border-b-[#C7C7CC] border-b-solid">
-          <p className="text-[#07152A] font-[Poppins] text-center text-[32px] md:text-[40px] leading-[32px] font-bold pt-[32px] pb-[32px]">
+          <p className="text-[#07152A] font-[Poppins] text-center text-[32px] md:text-[40px] leading-[32px] font-bold pt-[32px] pb-[14px] md:pb-[32px]">
             Petroneus Sayudi & Associates
           </p>
-          <p className="text-[#374354] font-[Poppins] text-center text-[14px] md:text-[20px] leading-[32px] font-normal pt-[32px] pb-[32px]">
+          <p className="text-[#374354] font-[Poppins] text-justify md:text-center text-[14px] md:text-[20px] leading-[32px] font-normal pt-[20px] md:pt-[32px] pb-[32px]">
             berkedudukan di Jl. Pondasi Raya No. 28, RT.02 RW 17, Pulo Gadung,
             Jakarta Timur, 13210, mempunyai komitmen untuk turut menjunjung
             tinggi kehormatan profesi Advokat demi penegakan hukum yang benar
@@ -41,8 +41,8 @@ export default function AboutUs() {
 
           <img src={img} className="block m-auto pb-[50px]" />
         </div>
-        <div className="pt-[100px]">
-          <p className="text-[#07152A] font-[Poppins] text-center text-[32px] md:text-[40px] leading-[32px] font-sembibold pb-[60px]">
+        <div className="pt-[50px] md:pt-[100px]">
+          <p className="text-[#07152A] font-[Poppins] text-center text-[22px] md:text-[40px] leading-[32px] font-sembibold pb-[60px]">
             PARA ADVOKAT & KONSULTAN HUKUM
           </p>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-2 m-auto block">
@@ -144,7 +144,7 @@ export default function AboutUs() {
             </div>
           </div>
           <div className="py-[16px] w-full bg-[white] mt-[48px]">
-            <p className="text-[#6B7280] text-center text-[20px] font-medium font-[Poppins] leading-[150%]">
+            <p className="text-[#6B7280] text-center text-[16px] md:text-[20px] font-medium font-[Poppins] leading-[150%]">
               Serta bekerja sama dengan Notaris Hermansyah, S.H., M.Kn., dengan
               wilayah kerja di Kabupaten Bekasi.
             </p>

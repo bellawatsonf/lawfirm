@@ -24,8 +24,8 @@ export default function ContactUs() {
   return (
     <>
       <HeaderComponent />
-      <div className="bg-[url('/ContactUs.svg')] h-[auto] md:h-[480px] px-[80px] pt-[70px] md:pt-[186px] bg-cover">
-        <p className="text-[white] text-[32px] md:text-[64px] font-semibold font-[Poppins] pb-[32px]">
+      <div className="bg-[url('/ContactUs.svg')] h-[auto] md:h-[480px] px-[80px] pt-[70px] md:pt-[186px] pb-[40px] md:pb-[0px] bg-cover">
+        <p className="text-[white] text-[28px] md:text-[64px] font-semibold font-[Poppins] pb-[32px]">
           HUBUNGI KAMI
         </p>
       </div>
@@ -34,25 +34,25 @@ export default function ContactUs() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className=" pb-[32px] px-[24px] pt-[10%] md:pt-[30%]">
             {/* <img src={logo} className="hidden md:block" /> */}
-            <p className="text-[#1D1D1D] text-[24px] font-bold font-[Poppins] py-[12px] md:py-[24px]">
+            <p className="text-[#1D1D1D] text-[20px] md:text-[24px] font-bold font-[Poppins] py-[12px] md:py-[24px]">
               KANTOR KAMI
             </p>
-            <p className="text-[#1D1D1D] text-[20px] font-medium font-[Poppins] ">
+            <p className="text-[#1D1D1D] text-[16px] md:text-[20px] font-medium font-[Poppins] ">
               Jl. Pondasi Raya No. 28, RT.02 RW 17, Pulo Gadung, Jakarta Timur,
               13210
             </p>
             <div className="flex flex-row items-center pt-[32px]">
-              <MailOutlined className="text-[#1D1D1D] text-[20px] font-medium font-[Poppins]" />
+              <MailOutlined className="text-[#1D1D1D] text-[16px] md:text-[20px] font-medium font-[Poppins]" />
               <a href="mailto:perkasa.phe@gmail.com" target="_blank">
-                <p className="hover:cursor-pointer text-[#1D1D1D] text-[20px] font-medium font-[Poppins] pl-[10px]">
+                <p className="hover:cursor-pointer text-[#1D1D1D] text-[16px] md:text-[20px] font-medium font-[Poppins] pl-[10px]">
                   perkasa.phe@gmail.com
                 </p>
               </a>
             </div>
             <div className="flex flex-row items-center pt-[32px]">
-              <PhoneOutlined className="text-[#1D1D1D] text-[20px] font-medium font-[Poppins]" />
+              <PhoneOutlined className="text-[#1D1D1D] text-[16px] md:text-[20px] font-medium font-[Poppins]" />
               <a href="https://wa.me/+6281321130071" target="_blank">
-                <p className="hover:cursor-pointer text-[#1D1D1D] text-[20px] font-medium font-[Poppins] pl-[10px]">
+                <p className="hover:cursor-pointer text-[#1D1D1D] text-[16px] md:text-[20px] font-medium font-[Poppins] pl-[10px]">
                   0813-2113-0071
                 </p>
               </a>
@@ -68,15 +68,15 @@ export default function ContactUs() {
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="py-[32px] px-[10px] md:px-[24px]">
-            <img src={img2} className="w-[100%]  h-[402px]" />
+          <div className="py-[0px] md:py-[32px] px-[10px] md:px-[24px] ">
+            <img src={img2} className="w-[100%]  h-[302px] md:h-[402px]" />
           </div>
-          <div className="mt-[40px]">
+          <div className="mt-[0px] md:mt-[40px]">
             {/* <img src={logo} className="hidden md:block" /> */}
-            <p className="text-[#07152A] text-[40px] font-semibold font-[Poppins] leading-[32px]">
+            <p className="text-[#07152A] text-[28px] md:text-[40px] font-semibold font-[Poppins] leading-[32px]">
               Send us Message
             </p>
-            <div className="w-full md:w-[70%] mt-[40px]">
+            <div className="w-full md:w-[70%] mt-[12px] md:mt-[40px]">
               <Form
                 name="basic"
                 initialValues={{ remember: true }}

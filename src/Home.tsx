@@ -10,10 +10,10 @@ export default function Home() {
       <HeaderComponent />
       <div className="h-[100vh] bg-[url('/Hero.svg')] bg-cover w-[100%] md:w-full px-[20px] md:px-[0px]">
         <div className=" md:w-[35%] relative left-[0px] md:left-[80px] top-[100px]">
-          <div className="font-[Poppins] text-[40px] md:text-[64px] font-medium leading-[50px] md:leading-[80px] text-[white] pb-[32px]">
+          <div className="font-[Poppins] text-[32px] md:text-[64px] font-medium leading-[50px] md:leading-[80px] text-[white] pb-[32px]">
             PETRONEUS SAYUDI & ASSOCIATES
           </div>
-          <p className="font-[Poppins] text-[14px] md:text-[20px] font-normal  text-[white] pb-[32px]">
+          <p className="font-[Poppins] text-[14px] md:text-[20px] font-normal leading-[24px] text-[white] pb-[32px]">
             bekerja secara profesional dan didukung oleh tenaga-tenaga yang
             memiliki kualifikasi di bidang hukum pidana, perdata, perusahaan,
             perburuhan serta berpengalaman dalam dunia Litigasi (Beracara di
@@ -53,19 +53,19 @@ export default function Home() {
         {/* Vision & Mission */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className=" border-solid border-1 border-[white] bg-[white] bg-opacity-[0.1] rounded-[12px] backdrop-blur-[22.5px]  py-[40px] md:py-[24px] px-[32px]">
-            <p className="text-[#FFF] text-left text-[32px] font-semibold leading-[32px] font-[Poppins] pb-[32px]">
+            <p className="text-[#FFF] text-left text-[24px] md:text-[32px] font-semibold leading-[32px] font-[Poppins] pb-[32px]">
               Visi
             </p>
-            <p className="text-[#FFF] text-left text-[20px] font-normal leading-[32px] font-[Poppins] ">
+            <p className="text-[#FFF] text-left text-[16px] md:text-[20px] font-normal leading-[32px] font-[Poppins] ">
               “ Yang Terpenting Bukan Kepastian Hukum Melainkan Keadilan Bagi
               Masyarakat ”
             </p>
           </div>
           <div className=" border-solid border-1 border-[white] bg-[white] bg-opacity-[0.1] rounded-[12px] backdrop-blur-[22.5px]  py-[40px] md:py-[24px] px-[32px]">
-            <p className="text-[#FFF] text-left text-[32px] font-semibold leading-[32px] font-[Poppins] pb-[32px]">
+            <p className="text-[#FFF] text-left text-[24px] md:text-[32px] font-semibold leading-[32px] font-[Poppins] pb-[32px]">
               Misi
             </p>
-            <p className="text-[#FFF] text-left text-[20px] font-normal leading-[32px] font-[Poppins] ">
+            <p className="text-[#FFF] text-left text-[16px] md:text-[20px] font-normal leading-[32px] font-[Poppins] ">
               Mberikan layanan hukum yang optimal kepada klien.
             </p>
           </div>
@@ -74,11 +74,11 @@ export default function Home() {
       <div className="bg-[url('/PractisAreas.svg')] bg-cover w-full h-[auto]">
         <div className="flex flex-row py-[40px] md:py-[80px] px-[24px] md:px-[120px]">
           <div className="border-solid border-r-[1px] border-[black] w-full md:w-[15%]">
-            <p className="text-[#1F2732] text-[32px] font-bold leading-[114.6%]">
+            <p className="text-[#1F2732] text-[24px] md:text-[32px] font-bold leading-[32px] md:leading-[114.6%]">
               RUANG LINGKUP PELAYANAN JASA
             </p>
           </div>
-          <div className="w-full md:w-[85%] pl-[20px] md:pl-[80px]">
+          <div className="w-full md:w-[85%] pl-[20px] md:pl-[80px] text-[14px] md:text-[20px] leading-[24px] md:leading-[32px]">
             <p>
               There are many variations of passages of Lorem Ipsum available,
               but the majority have su alteration in some form, by injected
@@ -88,19 +88,19 @@ export default function Home() {
           </div>
         </div>
         <div className="w-[100%] px-[24px] md:px-[120px] pb-[60px] md:pb-[120px] ">
-          <p className="text-[#1F2732] font-[Poppins] text-[32px] font-bold leading-[32px] pb-[32px] flex flex-row text-center justify-center">
-            Bidang Non Litigasi{" "}
-            <div className="text-[#CB9D24] font-[Poppins] text-[32px] font-bold leading-[32px] ">
+          <p className="text-[#1F2732] font-[Poppins] text-[24px] md:text-[32px] font-bold leading-[32px] pb-[32px] flex flex-row text-center justify-center">
+            Bidang Litigasi{" "}
+            <div className="text-[#CB9D24] font-[Poppins] text-[24px] md:text-[32px] font-bold leading-[32px] ">
               (Di Luar Pengadilan)
             </div>
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 ">
             <div className="bg-[#1F2732] py-[58px] px-[49px]  w-auto">
               <div className="border-b-[1px] border-b-solid border-b-[#3A4553]">
-                <p className="text-[white] text-[32px] font-bold leading-[114%] pb-[8px]">
+                <p className="text-[white] text-[24px] md:text-[32px] font-bold leading-[114%] pb-[8px]">
                   Legal Advice
                 </p>
-                <p className="text-[#D7D7D7] text-[16px] font-normal leading-[140%] pb-[35px]">
+                <p className="text-[#D7D7D7] text-[14px] md:text-[16px] font-normal leading-[140%] pb-[35px]">
                   Kami dapat memberikan nasihat hukum baik lisan maupun tulisan
                   terhadap permasalahan tertentu yang beraspek hukum pada
                   tahap-tahap sebelum atau sesudah kebijakan perusahaan
@@ -113,17 +113,17 @@ export default function Home() {
                 </div>
                 <div className="w-[50%]">
                   <Button className="bg-[#161D27] text-[14px] md:text-[20px] font-medium text-[white] font-[Poppins] py-[15px] px-[38px] h-auto">
-                    Learn More
+                    Hubungi
                   </Button>
                 </div>
               </div>
             </div>
-            <div className="bg-[#1F2732] py-[58px] px-[49px] bg-[#1F2732] w-auto">
+            <div className="bg-[#1F2732] py-[58px] px-[49px]  w-auto">
               <div className="border-b-[1px] border-b-solid border-b-[#3A4553]">
-                <p className="text-[white] text-[32px] font-bold leading-[114%] pb-[8px]">
+                <p className="text-[white] text-[24px] md:text-[32px] font-bold leading-[114%] pb-[8px]">
                   Legal Drafting
                 </p>
-                <p className="text-[#D7D7D7] text-[16px] font-normal leading-[140%] pb-[35px]">
+                <p className="text-[#D7D7D7] text-[14px] md:text-[16px] font-normal leading-[140%] pb-[35px]">
                   Kami membuat, memeriksa dan/atau merevisi / menyempurnakan
                   draft kontrak dan/atau surat-surat lain yang mempunyai
                   Konsekuensi Yuridis yang berlaku dalam hubungan antara klien
@@ -136,17 +136,17 @@ export default function Home() {
                 </div>
                 <div className="w-[50%]">
                   <Button className="bg-[#161D27] text-[14px] md:text-[20px] font-medium text-[white] font-[Poppins] py-[15px] px-[38px] h-auto">
-                    Hubungiss
+                    Hubungi
                   </Button>
                 </div>
               </div>
             </div>
             <div className="bg-[#1F2732] py-[32px] md:py-[58px] px-[49px] w-auto">
               <div className="border-b-[1px] border-b-solid border-b-[#3A4553]">
-                <p className="text-[white] text-[32px] font-bold leading-[114%] pb-[8px]">
+                <p className="text-[white] text-[24px] md:text-[32px] font-bold leading-[114%] pb-[8px]">
                   Legal Opinion
                 </p>
-                <p className="text-[#D7D7D7] text-[16px] font-normal leading-[140%] pb-[35px]">
+                <p className="text-[#D7D7D7] text-[14px] md:text-[16px] font-normal leading-[140%] pb-[35px]">
                   Pada item ini, kami dapat memberikan pendapat yang didasarkan
                   pada bukti bukti yang dimiliki pihak-pihak dan terkait pula
                   dengan posisi klien di “muka hukum”.
@@ -167,10 +167,10 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-[50px]">
             <div className="bg-[#1F2732] py-[58px] px-[49px]  w-auto">
               <div className="border-b-[1px] border-b-solid border-b-[#3A4553]">
-                <p className="text-[white] text-[32px] font-bold leading-[114%] pb-[8px]">
+                <p className="text-[white] text-[24px] md:text-[32px] font-bold leading-[114%] pb-[8px]">
                   Somasi
                 </p>
-                <p className="text-[#D7D7D7] text-[16px] font-normal leading-[140%] pb-[35px]">
+                <p className="text-[#D7D7D7] text-[14px] md:text-[16px] font-normal leading-[140%] pb-[35px]">
                   Kami dapat memberikan teguran tertulis atas kelalaian atau
                   kesengajaan yang dilakukan oleh pihak lain yang dapat atau
                   berakibat merugikan klien oleh karena tidak dipenuhinya suatu
@@ -183,17 +183,17 @@ export default function Home() {
                 </div>
                 <div className="w-[50%]">
                   <Button className="bg-[#161D27] text-[14px] md:text-[20px] font-medium text-[white] font-[Poppins] py-[15px] px-[38px] h-auto">
-                    Learn More
+                    Hubungi
                   </Button>
                 </div>
               </div>
             </div>
-            <div className="bg-[#1F2732] py-[58px] px-[49px] bg-[#1F2732] w-auto">
+            <div className="bg-[#1F2732] py-[58px] px-[49px] w-auto">
               <div className="border-b-[1px] border-b-solid border-b-[#3A4553]">
-                <p className="text-[white] text-[32px] font-bold leading-[114%] pb-[8px]">
+                <p className="text-[white] text-[24px] md:text-[32px] font-bold leading-[114%] pb-[8px]">
                   Negosiasi
                 </p>
-                <p className="text-[#D7D7D7] text-[16px] font-normal leading-[140%] pb-[35px]">
+                <p className="text-[#D7D7D7] text-[14px] md:text-[16px] font-normal leading-[140%] pb-[35px]">
                   Kami dapat melakukan upaya upaya untuk secara maksimal
                   mengupayakan tercapainya kesepakatan. Dalam hal ini upaya
                   untuk mencapai kesepakatan di luar Pengadilan yang merupakan
@@ -214,10 +214,10 @@ export default function Home() {
             </div>
             <div className="bg-[#1F2732] py-[32px] md:py-[58px] px-[49px] w-auto">
               <div className="border-b-[1px] border-b-solid border-b-[#3A4553]">
-                <p className="text-[white] text-[32px] font-bold leading-[114%] pb-[8px]">
+                <p className="text-[white] text-[24px] md:text-[32px] font-bold leading-[114%] pb-[8px]">
                   Legal Investigasi
                 </p>
-                <p className="text-[#D7D7D7] text-[16px] font-normal leading-[140%] pb-[35px]">
+                <p className="text-[#D7D7D7] text-[14px] md:text-[16px] font-normal leading-[140%] pb-[35px]">
                   Kami dapat meneliti, menyelidiki, memeriksa dan selanjutnya
                   memberi pertimbangan mengenai keadaan suatu objek, terutama
                   mengenai status, kedudukan dan keabsahannya menurut hukum.
@@ -238,10 +238,10 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-[50px]">
             <div className="bg-[#1F2732] py-[58px] px-[49px]  w-auto ">
               <div className="border-b-[1px] border-b-solid border-b-[#3A4553]">
-                <p className="text-[white] text-[32px] font-bold leading-[114%] pb-[8px]">
+                <p className="text-[white] text-[24px] md:text-[32px] font-bold leading-[114%] pb-[8px]">
                   Pendirian Badan Usaha Berbadan Hukum
                 </p>
-                <p className="text-[#D7D7D7] text-[16px] font-normal leading-[140%] pb-[35px]">
+                <p className="text-[#D7D7D7] text-[14px] md:text-[16px] font-normal leading-[140%] pb-[35px]">
                   Kami dapat mengurus pembuatan badan usaha berbadan hukum
                   beserta izin-izinnya seperti pembuatan PT, CV, Koperasi,
                   Yayasan dan lain-lain. Beberapa badan usaha berbadan hukum
@@ -257,7 +257,7 @@ export default function Home() {
                 </div>
                 <div className="w-[50%]">
                   <Button className="bg-[#161D27] text-[14px] md:text-[20px] font-medium text-[white] font-[Poppins] py-[15px] px-[38px] h-auto">
-                    Learn More
+                    Hubungi
                   </Button>
                 </div>
               </div>
@@ -265,19 +265,20 @@ export default function Home() {
           </div>
         </div>
         <div className="w-[100%] px-[24px] md:px-[120px] pb-[60px] md:pb-[120px] ">
-          <p className="text-[#1F2732] font-[Poppins] text-[32px] font-bold leading-[32px] pb-[32px] flex flex-row text-center justify-center">
+          <p className="text-[#1F2732] font-[Poppins] text-[24px] md:text-[32px] font-bold leading-[32px] pb-[32px] flex flex-row text-center justify-center">
             Bidang Litigasi{" "}
-            <div className="text-[#CB9D24] font-[Poppins] text-[32px] font-bold leading-[32px] ">
+            <div className="text-[#CB9D24] font-[Poppins] text-[24px] md:text-[32px] font-bold leading-[32px] ">
               (Di Pengadilan)
             </div>
           </p>
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 ">
             <div className="bg-[#1F2732] py-[58px] px-[49px]  w-auto">
               <div className="border-b-[1px] border-b-solid border-b-[#3A4553]">
-                <p className="text-[white] text-[32px] font-bold leading-[114%] pb-[8px]">
+                <p className="text-[white] text-[24px] md:text-[32px] font-bold leading-[114%] pb-[8px]">
                   PERDATA
                 </p>
-                <p className="text-[#D7D7D7] text-[16px] font-normal leading-[140%] pb-[35px]">
+                <p className="text-[#D7D7D7] text-[14px] md:text-[16px] font-normal leading-[140%] pb-[35px]">
                   <ul>
                     <li>Mengajukan Gugatan Perdata;</li>
                     <li>
@@ -303,17 +304,17 @@ export default function Home() {
                 </div>
                 <div className="w-[50%]">
                   <Button className="bg-[#161D27] text-[14px] md:text-[20px] font-medium text-[white] font-[Poppins] py-[15px] px-[38px] h-auto">
-                    Learn More
+                    Hubungi
                   </Button>
                 </div>
               </div>
             </div>
             <div className="bg-[#1F2732] py-[58px] px-[49px] bg-[#1F2732] w-auto">
               <div className="border-b-[1px] border-b-solid border-b-[#3A4553]">
-                <p className="text-[white] text-[32px] font-bold leading-[114%] pb-[8px]">
+                <p className="text-[white] text-[24px] md:text-[32px] font-bold leading-[114%] pb-[8px]">
                   PIDANA
                 </p>
-                <p className="text-[#D7D7D7] text-[16px] font-normal leading-[140%] pb-[35px]">
+                <p className="text-[#D7D7D7] text-[14px] md:text-[16px] font-normal leading-[140%] pb-[35px]">
                   <ul>
                     <li>
                       Mendampingi serta melindungi kepentingan hukum klien dalam
@@ -343,10 +344,10 @@ export default function Home() {
             </div>
             <div className="bg-[#1F2732] py-[32px] md:py-[58px] px-[49px] w-auto">
               <div className="border-b-[1px] border-b-solid border-b-[#3A4553]">
-                <p className="text-[white] text-[32px] font-bold leading-[114%] pb-[8px]">
+                <p className="text-[white] text-[24px] md:text-[32px] font-bold leading-[114%] pb-[8px]">
                   SENGKETA TATA USAHA NEGARA
                 </p>
-                <p className="text-[#D7D7D7] text-[16px] font-normal leading-[140%] pb-[35px]">
+                <p className="text-[#D7D7D7] text-[14px] md:text-[16px] font-normal leading-[140%] pb-[35px]">
                   <ul>
                     <li>Mengajukan gugatan sengketa TUN ke Pengadilan TUN;</li>
                     <li>
@@ -376,10 +377,10 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-[50px]">
             <div className="bg-[#1F2732] py-[58px] px-[49px]  w-auto">
               <div className="border-b-[1px] border-b-solid border-b-[#3A4553]">
-                <p className="text-[white] text-[32px] font-bold leading-[114%] pb-[8px]">
+                <p className="text-[white] text-[24px] md:text-[32px] font-bold leading-[114%] pb-[8px]">
                   SENGKETA MEREK
                 </p>
-                <p className="text-[#D7D7D7] text-[16px] font-normal leading-[140%] pb-[35px]">
+                <p className="text-[#D7D7D7] text-[14px] md:text-[16px] font-normal leading-[140%] pb-[35px]">
                   <ul>
                     <li>Mengajukan gugatan ke Pengadilan Niaga;</li>
                     <li> Melakukan upaya hukum;</li>
@@ -400,17 +401,17 @@ export default function Home() {
                 </div>
                 <div className="w-[50%]">
                   <Button className="bg-[#161D27] text-[14px] md:text-[20px] font-medium text-[white] font-[Poppins] py-[15px] px-[38px] h-auto">
-                    Learn More
+                    Hubungi
                   </Button>
                 </div>
               </div>
             </div>
-            <div className="bg-[#1F2732] py-[58px] px-[49px] bg-[#1F2732] w-auto">
+            <div className="bg-[#1F2732] py-[58px] px-[49px]  w-auto">
               <div className="border-b-[1px] border-b-solid border-b-[#3A4553]">
-                <p className="text-[white] text-[32px] font-bold leading-[114%] pb-[8px]">
+                <p className="text-[white] text-[24px] md:text-[32px] font-bold leading-[114%] pb-[8px]">
                   SENGKETA PAJAK
                 </p>
-                <p className="text-[#D7D7D7] text-[16px] font-normal leading-[140%] pb-[35px]">
+                <p className="text-[#D7D7D7] text-[14px] md:text-[16px] font-normal leading-[140%] pb-[35px]">
                   <ul>
                     <li>
                       Mengajukan keberatan-keberatan atas pajak yang dibebankan
@@ -437,10 +438,10 @@ export default function Home() {
             </div>
             <div className="bg-[#1F2732] py-[32px] md:py-[58px] px-[49px] w-auto">
               <div className="border-b-[1px] border-b-solid border-b-[#3A4553]">
-                <p className="text-[white] text-[32px] font-bold leading-[114%] pb-[8px]">
+                <p className="text-[white] text-[24px] md:text-[32px] font-bold leading-[114%] pb-[8px]">
                   PERKARA PERDATA AGAMA
                 </p>
-                <p className="text-[#D7D7D7] text-[16px] font-normal leading-[140%] pb-[35px]">
+                <p className="text-[#D7D7D7] text-[14px] md:text-[16px] font-normal leading-[140%] pb-[35px]">
                   <ul>
                     <li>
                       Mengajukan permohonan talak atau gugatan cerai ke

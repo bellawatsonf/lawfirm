@@ -51,7 +51,7 @@ export default function HeaderComponent() {
             </li>
             <li
               className="pr-[40px] hover:cursor-pointer"
-              onClick={() => navigate("/alat-berat")}
+              onClick={() => navigate("/")}
             >
               Layanan Kami
             </li>
@@ -125,10 +125,10 @@ export default function HeaderComponent() {
                   if (open === "open") {
                     setopen("close");
                   }
-                  navigate("/alat-berat");
+                  navigate("/");
                 }}
               >
-                Jenis Alat Berat
+                Layanan Kami
               </li>
               {/* <li className="pr-[40px] hover:cursor-pointer" onClick={()=>navigate('/')}>General Kontraktor</li> */}
               <li
