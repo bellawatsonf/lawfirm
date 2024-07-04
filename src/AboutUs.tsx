@@ -45,7 +45,7 @@ export default function AboutUs() {
           <p className="text-[#07152A] font-[Poppins] text-center text-[22px] md:text-[40px] leading-[32px] font-sembibold pb-[60px]">
             PARA ADVOKAT & KONSULTAN HUKUM
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-2 m-auto block">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 m-auto">
             <div>
               <Card
                 hoverable
@@ -115,30 +115,6 @@ export default function AboutUs() {
                 <Meta
                   title="Priyo Jatmiko, S.H., M.H."
                   description="Konsultan Hukum Perusahaan, Ketua DPC PERADI Bekasi Periode 2015-2020"
-                />
-              </Card>
-            </div>
-            <div>
-              <Card
-                hoverable
-                style={{ width: 300, display: "block", margin: "auto" }}
-                cover={<img alt="example" src={img1} />}
-              >
-                <Meta
-                  title="Irene Yosephine Soeitoe, S.H., M.H"
-                  description="Konsultan Hak Atas Kekayaan Intelektual dan Hukum Kepailitan"
-                />
-              </Card>
-            </div>
-            <div>
-              <Card
-                hoverable
-                style={{ width: 300, display: "block", margin: "auto" }}
-                cover={<img alt="example" src={img1} />}
-              >
-                <Meta
-                  title="Europe Street beat"
-                  description="www.instagram.com"
                 />
               </Card>
             </div>
