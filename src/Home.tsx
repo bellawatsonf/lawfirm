@@ -136,7 +136,7 @@ export default function Home() {
                 </div>
                 <div className="w-[50%]">
                   <Button className="bg-[#161D27] text-[14px] md:text-[20px] font-medium text-[white] font-[Poppins] py-[15px] px-[38px] h-auto">
-                    Hubungi
+                    Hubungiss
                   </Button>
                 </div>
               </div>
