@@ -5,6 +5,7 @@ import type { FormProps } from "antd";
 import { Button, Form, Input } from "antd";
 import TextArea from "antd/es/input/TextArea";
 import HeaderComponent from "./components/Header";
+import FooterComponent from "./components/Footer";
 
 type FieldType = {
   firstname?: string;
@@ -140,6 +141,7 @@ export default function ContactUs() {
           </div>
         </div>
       </div>
+      <FooterComponent />
     </>
   );
 }

@@ -47,7 +47,7 @@ export default function FooterComponent() {
           </ul>
         </div>
         <div>
-          <div className="pb-[20px] md:pb-[33px] mb-[20px] md:mb-[33px]">
+          <div className=" md:pb-[33px] pt-[20px] md:pt-[33px] mb-[20px] md:mb-[33px] ">
             <p className="text-[white] font-[Poppins] text-[26px] md:text-[30px] font-bold leading-[114.6%] invisible">
               Layanan Jasa
             </p>
@@ -77,7 +77,6 @@ export default function FooterComponent() {
           </ul>
         </div>
         <div>
-          {" "}
           <div className="border-b-[#3A4553] border-b-[1px] border-b-solid pb-[20px] md:pb-[33px] pt-[20px] md:pt-[33px] mb-[20px] md:mb-[33px] border-t-[#3A4553] border-t-[1px] border-t-solid">
             <p className="text-[white] font-[Poppins] text-[26px] md:text-[30px] font-bold leading-[114.6%]">
               Hubungi Kami
