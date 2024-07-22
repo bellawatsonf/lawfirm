@@ -87,7 +87,8 @@ export default function FooterComponent() {
             13210
           </p>
           <p className="text-[#D7D7D7] font-[Poppins] text-[14px] md:text-[20px] font-normal leading-[200%]">
-            Phone: (011) 9876 54321 Email: info@example.com
+            Phone: (+62) 81294457400 <br />
+            Email: psa_lawoffice@gmail.com
           </p>
         </div>
       </div>

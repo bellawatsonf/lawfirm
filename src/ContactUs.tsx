@@ -46,15 +46,15 @@ export default function ContactUs() {
               <MailOutlined className="text-[#1D1D1D] text-[16px] md:text-[20px] font-medium font-[Poppins]" />
               <a href="mailto:perkasa.phe@gmail.com" target="_blank">
                 <p className="hover:cursor-pointer text-[#1D1D1D] text-[16px] md:text-[20px] font-medium font-[Poppins] pl-[10px]">
-                  perkasa.phe@gmail.com
+                  psa_lawoffice@gmail.com
                 </p>
               </a>
             </div>
             <div className="flex flex-row items-center pt-[32px]">
               <PhoneOutlined className="text-[#1D1D1D] text-[16px] md:text-[20px] font-medium font-[Poppins]" />
-              <a href="https://wa.me/+6281321130071" target="_blank">
+              <a href="https://wa.me/+6281294457400" target="_blank">
                 <p className="hover:cursor-pointer text-[#1D1D1D] text-[16px] md:text-[20px] font-medium font-[Poppins] pl-[10px]">
-                  0813-2113-0071
+                  0812-9445-7400
                 </p>
               </a>
             </div>
@@ -63,8 +63,8 @@ export default function ContactUs() {
           <div className="py-[32px] px-[10px] md:px-[24px]">
             <iframe
               width="100%"
-              height="600"
-              src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=52.70967533219885, -8.020019531250002&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
+              height="400"
+              src="https://maps.google.com/maps?q=Jl.%20Pondasi%20No.28,%20RT.2/RW.2,%20Kayu%20Putih,%20Kec.%20Pulo%20Gadung,%20Kota%20Jakarta%20Timur,%20Daerah%20Khusus%20Ibukota%20Jakarta%2013210,%20Indonesia&t=&z=13&ie=UTF8&iwloc=&output=embed"
             ></iframe>
           </div>
         </div>

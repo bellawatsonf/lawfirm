@@ -1,4 +1,9 @@
 import img1 from "/Spotifysvg.svg";
+import client1 from "../assets/c1.jpeg";
+import client2 from "../assets/c2.jpeg";
+import client3 from "../assets/c3.jpeg";
+import client4 from "../assets/c4.jpeg";
+import client5 from "../assets/c5.jpeg";
 
 export default function OurClientComponent() {
   return (
@@ -8,20 +13,20 @@ export default function OurClientComponent() {
           Our Clients
         </p>
         <div className="grid grid-cols-1 md:grid-cols-5 gap-5">
-          <div>
-            <img src={img1} className="block m-auto" />
+          <div className="flex items-center">
+            <img src={client1} className="block m-auto" />
           </div>
           <div>
-            <img src={img1} className="block m-auto" />
+            <img src={client2} className="block m-auto" />
           </div>
           <div>
-            <img src={img1} className="block m-auto" />
+            <img src={client3} className="block m-auto" />
           </div>
           <div>
-            <img src={img1} className="block m-auto" />
+            <img src={client4} className="block m-auto" />
           </div>
           <div>
-            <img src={img1} className="block m-auto" />
+            <img src={client5} className="block m-auto" />
           </div>
         </div>
       </div>

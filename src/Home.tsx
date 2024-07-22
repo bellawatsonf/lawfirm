@@ -3,14 +3,15 @@ import "./App.css";
 import HeaderComponent from "./components/Header";
 import { AndroidOutlined } from "@ant-design/icons";
 import FooterComponent from "./components/Footer";
+import OurClientComponent from "./components/OurClient";
 
 export default function Home() {
   return (
     <>
       <HeaderComponent />
-      <div className="h-[100vh] bg-[url('/Hero.svg')] bg-cover w-[100%] md:w-full px-[20px] md:px-[0px]">
-        <div className=" md:w-[35%] relative left-[0px] md:left-[80px] top-[100px]">
-          <div className="font-[Poppins] text-[32px] md:text-[64px] font-medium leading-[50px] md:leading-[80px] text-[white] pb-[32px]">
+      <div className="h-[auto] md:h-[100vh] bg-[url('/Hero.svg')] bg-cover w-[100%] md:w-full px-[20px] md:px-[0px] pb-[50px] ">
+        <div className=" md:w-[35%] relative left-[0px] md:left-[80px] top-[40px] md:top-[100px] ">
+          <div className="font-[Poppins] text-[26px] md:text-[64px] font-medium leading-[40px] md:leading-[80px]  text-[white] pb-[32px]">
             PETRONEUS SAYUDI & ASSOCIATES
           </div>
           <p className="font-[Poppins] text-[14px] md:text-[20px] font-normal leading-[24px] text-[white] pb-[32px]">
@@ -66,7 +67,7 @@ export default function Home() {
               Misi
             </p>
             <p className="text-[#FFF] text-left text-[16px] md:text-[20px] font-normal leading-[32px] font-[Poppins] ">
-              Mberikan layanan hukum yang optimal kepada klien.
+              Memberikan layanan hukum yang optimal kepada klien.
             </p>
           </div>
         </div>
@@ -107,7 +108,7 @@ export default function Home() {
                   dilaksanakan.
                 </p>
               </div>
-              <div className="flex flex-row pt-[34px] items-center">
+              {/* <div className="flex flex-row pt-[34px] items-center">
                 <div className="w-[50%] ">
                   <AndroidOutlined className="text-[20px] md:text-[40px] text-[#D1B06B]" />
                 </div>
@@ -116,7 +117,7 @@ export default function Home() {
                     Hubungi
                   </Button>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="bg-[#1F2732] py-[58px] px-[49px]  w-auto">
               <div className="border-b-[1px] border-b-solid border-b-[#3A4553]">
@@ -130,7 +131,7 @@ export default function Home() {
                   dengan pihak rekanan atau pihak lain.{" "}
                 </p>
               </div>
-              <div className="flex flex-row pt-[34px] items-center">
+              {/* <div className="flex flex-row pt-[34px] items-center">
                 <div className="w-[50%] ">
                   <AndroidOutlined className="text-[20px] md:text-[40px] text-[#D1B06B]" />
                 </div>
@@ -139,7 +140,7 @@ export default function Home() {
                     Hubungi
                   </Button>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="bg-[#1F2732] py-[32px] md:py-[58px] px-[49px] w-auto">
               <div className="border-b-[1px] border-b-solid border-b-[#3A4553]">
@@ -152,7 +153,7 @@ export default function Home() {
                   dengan posisi klien di “muka hukum”.
                 </p>
               </div>
-              <div className="flex flex-row pt-[34px] items-center">
+              {/* <div className="flex flex-row pt-[34px] items-center">
                 <div className="w-[50%] ">
                   <AndroidOutlined className="text-[20px] md:text-[40px] text-[#D1B06B]" />
                 </div>
@@ -161,7 +162,7 @@ export default function Home() {
                     Hubungi
                   </Button>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-[50px]">
@@ -177,7 +178,7 @@ export default function Home() {
                   prestasi.
                 </p>
               </div>
-              <div className="flex flex-row pt-[34px] items-center">
+              {/* <div className="flex flex-row pt-[34px] items-center">
                 <div className="w-[50%] ">
                   <AndroidOutlined className="text-[20px] md:text-[40px] text-[#D1B06B]" />
                 </div>
@@ -186,7 +187,7 @@ export default function Home() {
                     Hubungi
                   </Button>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="bg-[#1F2732] py-[58px] px-[49px] w-auto">
               <div className="border-b-[1px] border-b-solid border-b-[#3A4553]">
@@ -201,7 +202,7 @@ export default function Home() {
                   dihadapi klien.
                 </p>
               </div>
-              <div className="flex flex-row pt-[34px] items-center">
+              {/* <div className="flex flex-row pt-[34px] items-center">
                 <div className="w-[50%] ">
                   <AndroidOutlined className="text-[20px] md:text-[40px] text-[#D1B06B]" />
                 </div>
@@ -210,7 +211,7 @@ export default function Home() {
                     Hubungi
                   </Button>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="bg-[#1F2732] py-[32px] md:py-[58px] px-[49px] w-auto">
               <div className="border-b-[1px] border-b-solid border-b-[#3A4553]">
@@ -223,7 +224,7 @@ export default function Home() {
                   mengenai status, kedudukan dan keabsahannya menurut hukum.
                 </p>
               </div>
-              <div className="flex flex-row pt-[34px] items-center">
+              {/* <div className="flex flex-row pt-[34px] items-center">
                 <div className="w-[50%] ">
                   <AndroidOutlined className="text-[20px] md:text-[40px] text-[#D1B06B]" />
                 </div>
@@ -232,7 +233,7 @@ export default function Home() {
                     Hubungi
                   </Button>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-[50px]">
@@ -244,14 +245,10 @@ export default function Home() {
                 <p className="text-[#D7D7D7] text-[14px] md:text-[16px] font-normal leading-[140%] pb-[35px]">
                   Kami dapat mengurus pembuatan badan usaha berbadan hukum
                   beserta izin-izinnya seperti pembuatan PT, CV, Koperasi,
-                  Yayasan dan lain-lain. Beberapa badan usaha berbadan hukum
-                  yang pernah memakai jasa kami diantaranya pembutan PT. Arcadia
-                  Cahaya Utama, PT. Mekar Narsisis Indonesia, PT. Silalaki
-                  Sakti, PT. Sahata Maju Bersama, PT. Alrez Anugrah Utama dan
-                  lain-lain.
+                  Yayasan dan lain-lain.
                 </p>
               </div>
-              <div className="flex flex-row pt-[34px] items-center">
+              {/* <div className="flex flex-row pt-[34px] items-center">
                 <div className="w-[50%] ">
                   <AndroidOutlined className="text-[20px] md:text-[40px] text-[#D1B06B]" />
                 </div>
@@ -260,7 +257,7 @@ export default function Home() {
                     Hubungi
                   </Button>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -298,7 +295,7 @@ export default function Home() {
                   </ul>
                 </p>
               </div>
-              <div className="flex flex-row pt-[34px] items-center">
+              {/* <div className="flex flex-row pt-[34px] items-center">
                 <div className="w-[50%] ">
                   <AndroidOutlined className="text-[20px] md:text-[40px] text-[#D1B06B]" />
                 </div>
@@ -307,7 +304,7 @@ export default function Home() {
                     Hubungi
                   </Button>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="bg-[#1F2732] py-[58px] px-[49px] bg-[#1F2732] w-auto">
               <div className="border-b-[1px] border-b-solid border-b-[#3A4553]">
@@ -331,7 +328,7 @@ export default function Home() {
                   </ul>
                 </p>
               </div>
-              <div className="flex flex-row pt-[34px] items-center">
+              {/* <div className="flex flex-row pt-[34px] items-center">
                 <div className="w-[50%] ">
                   <AndroidOutlined className="text-[20px] md:text-[40px] text-[#D1B06B]" />
                 </div>
@@ -340,7 +337,7 @@ export default function Home() {
                     Hubungi
                   </Button>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="bg-[#1F2732] py-[32px] md:py-[58px] px-[49px] w-auto">
               <div className="border-b-[1px] border-b-solid border-b-[#3A4553]">
@@ -362,7 +359,7 @@ export default function Home() {
                   </ul>
                 </p>
               </div>
-              <div className="flex flex-row pt-[34px] items-center">
+              {/* <div className="flex flex-row pt-[34px] items-center">
                 <div className="w-[50%] ">
                   <AndroidOutlined className="text-[20px] md:text-[40px] text-[#D1B06B]" />
                 </div>
@@ -371,7 +368,7 @@ export default function Home() {
                     Hubungi
                   </Button>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-[50px]">
@@ -381,7 +378,7 @@ export default function Home() {
                   SENGKETA MEREK
                 </p>
                 <p className="text-[#D7D7D7] text-[14px] md:text-[16px] font-normal leading-[140%] pb-[35px]">
-                  <ul>
+                  <ul className="list-decimal">
                     <li>Mengajukan gugatan ke Pengadilan Niaga;</li>
                     <li> Melakukan upaya hukum;</li>
                     <li>
@@ -395,7 +392,7 @@ export default function Home() {
                   </ul>
                 </p>
               </div>
-              <div className="flex flex-row pt-[34px] items-center">
+              {/* <div className="flex flex-row pt-[34px] items-center">
                 <div className="w-[50%] ">
                   <AndroidOutlined className="text-[20px] md:text-[40px] text-[#D1B06B]" />
                 </div>
@@ -404,7 +401,7 @@ export default function Home() {
                     Hubungi
                   </Button>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="bg-[#1F2732] py-[58px] px-[49px]  w-auto">
               <div className="border-b-[1px] border-b-solid border-b-[#3A4553]">
@@ -425,7 +422,7 @@ export default function Home() {
                   </ul>
                 </p>
               </div>
-              <div className="flex flex-row pt-[34px] items-center">
+              {/* <div className="flex flex-row pt-[34px] items-center">
                 <div className="w-[50%] ">
                   <AndroidOutlined className="text-[20px] md:text-[40px] text-[#D1B06B]" />
                 </div>
@@ -434,7 +431,7 @@ export default function Home() {
                     Hubungi
                   </Button>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="bg-[#1F2732] py-[32px] md:py-[58px] px-[49px] w-auto">
               <div className="border-b-[1px] border-b-solid border-b-[#3A4553]">
@@ -454,7 +451,7 @@ export default function Home() {
                   </ul>
                 </p>
               </div>
-              <div className="flex flex-row pt-[34px] items-center">
+              {/* <div className="flex flex-row pt-[34px] items-center">
                 <div className="w-[50%] ">
                   <AndroidOutlined className="text-[20px] md:text-[40px] text-[#D1B06B]" />
                 </div>
@@ -463,12 +460,12 @@ export default function Home() {
                     Hubungi
                   </Button>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
       </div>
-      {/* <OurClientComponent /> */}
+      <OurClientComponent />
       <FooterComponent />
     </>
   );

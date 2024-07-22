@@ -1,71 +1,125 @@
-import { useNavigate } from "react-router-dom";
-import logo from "../assets/Icon.svg";
+/* eslint-disable prefer-const */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useEffect, useState } from "react";
-import { MenuOutlined } from "@ant-design/icons";
+import { DownOutlined, MenuOutlined } from "@ant-design/icons";
 
-export default function HeaderComponent() {
+import logo from "../assets/Icon.svg";
+import { useNavigate } from "react-router-dom";
+
+export default function HeaderView() {
   let navigate = useNavigate();
   const [open, setopen] = useState("close");
-
-  // const onClick: MenuProps["onClick"] = (e) => {
-  //   console.log("click ", e);
-  //   setCurrent(e.key);
-  // };
+  const [show, setShow] = useState(false);
 
   useEffect(() => {
     console.log(open, "open");
   }, [open]);
+
   return (
     <>
-      {/* <div className="flex flex-row bg-[#243A5A] py-[24px] px-[80px] ">
-        <div className="w-[100%] flex justify-start">
-          <img src={logo} className="mr-[10px]" />
-          <p className="font-[Cormorant Garamond] text-[white] font-semibold text-[30px] capitalize">
-            Attorneyster
-          </p>
-        </div>
-        <div className="w-[100%] bg-[red] flex justify-end font-[Poppins] text-[#E7C070] font-semibold text-[18px] leading-[32px] align-center items-center ">
-          <p className="pr-[40px]">Beranda</p>
-          <p className="pr-[40px]">Tentang Kami</p>
-          <p className="pr-[40px]">Jenis Alat Berat</p>
-          <p className="pr-[40px]">General Kontraktor</p>
-          <p className="pr-[40px]">Hubungi Kami</p>
-        </div>
-      </div> */}
-
       <div className="hidden md:block">
         <div className="block md:flex bg-[#FFFAF1] w-[100%] h-auto px-[0px] md:px-[80px] py-[18px] justify-between items-center">
           <img src={logo} className="px-[20px] md:px-[0px]" />
-          <ul className="flex flex-row text-[#2F2F2F] text-[18px] font-medium leading-[32px] font-[Poppins]">
-            <li
-              className="pr-[40px] hover:cursor-pointer"
-              onClick={() => navigate("/")}
-            >
-              Beranda
-            </li>
-            <li
-              className="pr-[40px] hover:cursor-pointer"
-              onClick={() => navigate("/about-us")}
-            >
-              Tentang Kami
-            </li>
-            <li
-              className="pr-[40px] hover:cursor-pointer"
-              onClick={() => navigate("/")}
-            >
-              Layanan Kami
-            </li>
-            {/* <li className="pr-[40px] hover:cursor-pointer" onClick={()=>navigate('/')}>General Kontraktor</li> */}
-            <li
-              className="pr-[40px] hover:cursor-pointer"
-              onClick={() => navigate("/contact-us")}
-            >
-              Hubungi Kami
-            </li>
-          </ul>
+
+          {/* <nav>
+            <ul className="flex flex-row text-[#2F2F2F] text-[18px] font-medium leading-[32px] font-[Poppins]">
+              <li
+                className="pr-[40px] hover:cursor-pointer"
+                onClick={() => navigate("/")}
+              >
+                Beranda
+              </li>
+              <li
+                className="pr-[40px] hover:cursor-pointer"
+                onClick={() => navigate("/about-us")}
+              >
+                Tentang Kami
+              </li>
+              <li
+                className="pr-[40px] hover:cursor-pointer"
+                onClick={() => navigate("/alat-berat")}
+              >
+                Jenis Alat Berat
+              </li>
+              <li
+                className="pr-[40px] hover:cursor-pointer"
+                onClick={() => navigate("/alat-berat")}
+              >
+                Portofolio
+                <ul>
+                  <li>
+                    <a href="#">Blog</a>
+                  </li>
+                  <li>
+                    <a href="#">Socials</a>
+                  </li>
+                  <li>
+                    <a href="#">Reviews</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li
+                className="pr-[40px] hover:cursor-pointer"
+                onClick={() => navigate("/contact-us")}
+              >
+                Hubungi Kami
+              </li>
+            </ul>
+          </nav> */}
+          <nav>
+            <ul className="flex flex-row text-[#2F2F2F] text-[18px] font-medium leading-[32px] font-[Poppins]">
+              <li
+                className="pr-[40px] hover:cursor-pointer"
+                onClick={() => navigate("/")}
+              >
+                Beranda
+              </li>
+              <li
+                className="pr-[40px] hover:cursor-pointer"
+                onClick={() => navigate("/about-us")}
+              >
+                Tentang Kami
+              </li>
+              {/* <li
+                className="pr-[40px] hover:cursor-pointer"
+                onClick={() => navigate("/alat-berat")}
+              >
+                Jenis Alat Berat
+              </li>
+              <li
+                className="pr-[40px] hover:cursor-pointer"
+                // onClick={() => navigate("/alat-berat")}
+              >
+                Portofolio <DownOutlined className="text-[12px] " />{" "}
+                <ul>
+                  <li>
+                    <a href="#">Portofolio Proyek</a>
+                  </li>
+                  <li>
+                    <a href="#">Potofolio Design</a>
+                  </li>
+                </ul>
+              </li> */}
+
+              <li
+                className="pr-[40px] hover:cursor-pointer"
+                onClick={() => navigate("/contact-us")}
+              >
+                Hubungi Kami
+              </li>
+            </ul>
+          </nav>
+          {/* <Menu
+            onClick={onClick}
+            selectedKeys={[current]}
+            mode="horizontal"
+            items={items}
+            className="menu-custom"
+          /> */}
         </div>
       </div>
-      <div className="block md:hidden">
+      <div className="block md:hidden bg-[#FFFAF1]">
         <div className="flex flex-row py-[18px]">
           <div className="w-[50%] justify-start ">
             <img src={logo} className="px-[20px] md:px-[0px]" />
@@ -92,11 +146,11 @@ export default function HeaderComponent() {
         >
           <div
             style={{ transition: "0.2s", overflow: "hidden" }}
-            className="absolute z-[999] bg-[#F8F8F8] w-full h-[100000px]"
+            className="absolute z-[999] bg-[#FFFAF1] w-full h-[100000px]"
           >
             <ul className="p-[20px]">
               <li
-                className="pr-[40px] hover:cursor-pointer font-[Poppins] text-[20px] "
+                className="pr-[40px] hover:cursor-pointer font-[Poppins] text-[20px] py-[10px]"
                 onClick={() => {
                   if (open === "open") {
                     setopen("close");
@@ -107,7 +161,7 @@ export default function HeaderComponent() {
                 Beranda
               </li>
               <li
-                className="pr-[40px] hover:cursor-pointer font-[Poppins] text-[20px] "
+                className="pr-[40px] hover:cursor-pointer font-[Poppins] text-[20px] py-[10px]"
                 onClick={() => {
                   console.log("masuk");
 
@@ -119,20 +173,38 @@ export default function HeaderComponent() {
               >
                 Tentang Kami
               </li>
-              <li
-                className="pr-[40px] hover:cursor-pointer font-[Poppins] text-[20px] "
+              {/* <li
+                className="pr-[40px] hover:cursor-pointer font-[Poppins] text-[20px] py-[10px]"
                 onClick={() => {
                   if (open === "open") {
                     setopen("close");
                   }
-                  navigate("/");
+                  navigate("/alat-berat");
                 }}
               >
-                Layanan Kami
+                Jenis Alat Berat
               </li>
+              <li
+                className="pr-[40px] hover:cursor-pointer font-[Poppins] text-[20px] py-[10px]"
+                onClick={() => (!show ? setShow(true) : setShow(false))}
+              >
+                Portofolio <DownOutlined className="text-[12px] " />{" "}
+                <ul
+                  className={`${
+                    show ? "block" : "hidden"
+                  } bg-[#f0f0f0] w-[auto] px-[20px] py-[10px]`}
+                >
+                  <li className="pr-[40px] hover:cursor-pointer font-[Poppins] text-[20px] pb-[10px]">
+                    <a href="#">Portofolio Proyek</a>
+                  </li>
+                  <li className="pr-[40px] hover:cursor-pointer font-[Poppins] text-[20px]">
+                    <a href="#">Potofolio Design</a>
+                  </li>
+                </ul>
+              </li> */}
               {/* <li className="pr-[40px] hover:cursor-pointer" onClick={()=>navigate('/')}>General Kontraktor</li> */}
               <li
-                className="pr-[40px] hover:cursor-pointer font-[Poppins] text-[20px] "
+                className="pr-[40px] hover:cursor-pointer font-[Poppins] text-[20px] py-[10px]"
                 onClick={() => {
                   if (open === "open") {
                     setopen("close");
