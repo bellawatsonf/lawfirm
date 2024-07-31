@@ -33,6 +33,7 @@ export default function ContactUs() {
           name="keywords"
           content="PETRONEUS SAYUDI & ASSOCIATES Law Office"
         />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
         <meta
           name="description"
           content="Jl. Pondasi Raya No. 28, RT.02 RW 17, Pulo Gadung, Jakarta Timur,

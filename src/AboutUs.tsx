@@ -22,6 +22,7 @@ export default function AboutUs() {
           name="keywords"
           content="PETRONEUS SAYUDI & ASSOCIATES Law Office"
         />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
         <meta
           name="description"
           content="bekerja secara profesional dan didukung oleh tenaga-tenaga yang
@@ -81,18 +82,6 @@ export default function AboutUs() {
                 cover={<img alt="example" src={img2} />}
               >
                 <Meta
-                  title="Europe Street beat"
-                  description="www.instagram.com"
-                />
-              </Card>
-            </div>
-            <div>
-              <Card
-                hoverable
-                style={{ width: 300, display: "block", margin: "auto" }}
-                cover={<img alt="example" src={img3} />}
-              >
-                <Meta
                   title="Akbar Sayudi, S.H., M.H."
                   description="Konsultan hukum bidang Hukum Tata Negara dan Hukum Administrasi Negara"
                 />
@@ -102,7 +91,7 @@ export default function AboutUs() {
               <Card
                 hoverable
                 style={{ width: 300, display: "block", margin: "auto" }}
-                cover={<img alt="example" src={img4} />}
+                cover={<img alt="example" src={img3} />}
               >
                 <Meta
                   title="Alamando Jefri Teguh Manurung, S.H., M.H."
@@ -114,7 +103,7 @@ export default function AboutUs() {
               <Card
                 hoverable
                 style={{ width: 300, display: "block", margin: "auto" }}
-                cover={<img alt="example" src={img5} />}
+                cover={<img alt="example" src={img4} />}
               >
                 <Meta
                   title="Firmansyah Zulkarnaen Fhaderi, S.H. dan Senja Sukar Sarry, S.HH.,"
@@ -126,11 +115,23 @@ export default function AboutUs() {
               <Card
                 hoverable
                 style={{ width: 300, display: "block", margin: "auto" }}
-                cover={<img alt="example" src={img6} />}
+                cover={<img alt="example" src={img5} />}
               >
                 <Meta
                   title="Priyo Jatmiko, S.H., M.H."
                   description="Konsultan Hukum Perusahaan, Ketua DPC PERADI Bekasi Periode 2015-2020"
+                />
+              </Card>
+            </div>
+            <div>
+              <Card
+                hoverable
+                style={{ width: 300, display: "block", margin: "auto" }}
+                cover={<img alt="example" src={img6} />}
+              >
+                <Meta
+                  title="Irene Yosephine Soeitoe, S.H., M.H."
+                  description="Konsultan Hak Atas Kekayaan Intelektual dan Hukum Kepailitan"
                 />
               </Card>
             </div>
