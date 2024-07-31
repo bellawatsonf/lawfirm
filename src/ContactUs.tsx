@@ -34,7 +34,7 @@ export default function ContactUs() {
           content="PETRONEUS SAYUDI & ASSOCIATES Law Office"
         />
         <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
-        <meta name="title" content="ETRONEUS SAYUDI & ASSOCIATES Lawfirm" />
+        <meta name="title" content="PETRONEUS SAYUDI & ASSOCIATES Lawfirm" />
         <meta property="og:image" content="/Icon.svg" />
         <meta
           name="description"
