@@ -1,7 +1,7 @@
 /* eslint-disable prefer-const */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { useEffect, useState } from "react";
-import { DownOutlined, MenuOutlined } from "@ant-design/icons";
+import { MenuOutlined } from "@ant-design/icons";
 
 import logo from "../assets/Icon.svg";
 import { useNavigate } from "react-router-dom";
@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 export default function HeaderView() {
   let navigate = useNavigate();
   const [open, setopen] = useState("close");
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
 
   useEffect(() => {
     console.log(open, "open");

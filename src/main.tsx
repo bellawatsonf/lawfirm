@@ -6,7 +6,7 @@ import Home from "./Home.tsx";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import AboutUs from "./AboutUs.tsx";
 import ContactUs from "./ContactUs.tsx";
-import { Helmet, HelmetProvider } from "react-helmet-async";
+import { HelmetProvider } from "react-helmet-async";
 
 const router = createBrowserRouter([
   {

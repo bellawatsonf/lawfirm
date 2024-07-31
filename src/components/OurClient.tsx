@@ -1,4 +1,4 @@
-import img1 from "/Spotifysvg.svg";
+// import img1 from "/Spotifysvg.svg";
 import client1 from "../assets/c1.jpeg";
 import client2 from "../assets/c2.jpeg";
 import client3 from "../assets/c3.jpeg";
