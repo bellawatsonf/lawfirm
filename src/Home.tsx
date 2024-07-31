@@ -12,6 +12,7 @@ export default function Home() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>PETRONEUS SAYUDI & ASSOCIATES</title>
+        <meta name="author" content="PETRONEUS SAYUDI & ASSOCIATES" />
         <meta
           name="description"
           content="bekerja secara profesional dan didukung oleh tenaga-tenaga yang
