@@ -14,6 +14,10 @@ export default function Home() {
         <title>PETRONEUS SAYUDI & ASSOCIATES</title>
         <meta name="author" content="PETRONEUS SAYUDI & ASSOCIATES" />
         <meta
+          name="keywords"
+          content="PETRONEUS SAYUDI & ASSOCIATES Law Office"
+        ></meta>
+        <meta
           name="description"
           content="bekerja secara profesional dan didukung oleh tenaga-tenaga yang
             memiliki kualifikasi di bidang hukum pidana, perdata, perusahaan,
