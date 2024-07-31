@@ -9,10 +9,22 @@ import img3 from "./assets/3.svg";
 import img4 from "./assets/4.svg";
 import img5 from "./assets/5.svg";
 import img6 from "./assets/6.svg";
+import { Helmet } from "react-helmet-async";
 
 export default function AboutUs() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>PETRONEUS SAYUDI & ASSOCIATES</title>
+        <meta name="author" content="Tentang PETRONEUS SAYUDI & ASSOCIATES" />
+        <meta
+          name="description"
+          content="bekerja secara profesional dan didukung oleh tenaga-tenaga yang
+            memiliki kualifikasi di bidang hukum pidana, perdata, perusahaan,
+            perburuhan serta berpengalaman dalam dunia Litigasi"
+        />
+      </Helmet>
       <HeaderComponent />
       <div className="bg-[url('/AboutUs.svg')]  h-[auto] md:h-[480px] px-[80px] pt-[70px] md:pt-[186px] pb-[40px] md:pb-[0px] bg-cover">
         <p className=" text-[white] text-[28px] md:text-[64px] font-semibold font-[Poppins] pb-[32px]">

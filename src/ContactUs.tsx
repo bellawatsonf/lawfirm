@@ -6,6 +6,7 @@ import { Button, Form, Input } from "antd";
 import TextArea from "antd/es/input/TextArea";
 import HeaderComponent from "./components/Header";
 import FooterComponent from "./components/Footer";
+import { Helmet } from "react-helmet-async";
 
 type FieldType = {
   firstname?: string;
@@ -24,6 +25,16 @@ const onFinishFailed: FormProps<FieldType>["onFinishFailed"] = (errorInfo) => {
 export default function ContactUs() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>PETRONEUS SAYUDI & ASSOCIATES</title>
+        <meta name="author" content="Alamat PETRONEUS SAYUDI & ASSOCIATES" />
+        <meta
+          name="description"
+          content="Jl. Pondasi Raya No. 28, RT.02 RW 17, Pulo Gadung, Jakarta Timur,
+              13210"
+        />
+      </Helmet>
       <HeaderComponent />
       <div className="bg-[url('/ContactUs.svg')] h-[auto] md:h-[480px] px-[80px] pt-[70px] md:pt-[186px] pb-[40px] md:pb-[0px] bg-cover">
         <p className="text-[white] text-[28px] md:text-[64px] font-semibold font-[Poppins] pb-[32px]">
