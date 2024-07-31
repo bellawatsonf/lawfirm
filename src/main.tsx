@@ -6,6 +6,7 @@ import Home from "./Home.tsx";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import AboutUs from "./AboutUs.tsx";
 import ContactUs from "./ContactUs.tsx";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const router = createBrowserRouter([
   {
@@ -22,9 +23,12 @@ const router = createBrowserRouter([
   },
 ]);
 
+// const helmetContext = {};
+
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    {/* <App /> */}
-    <RouterProvider router={router} />
+    <HelmetProvider>
+      <RouterProvider router={router} />
+    </HelmetProvider>
   </React.StrictMode>
 );

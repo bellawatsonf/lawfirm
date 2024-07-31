@@ -1,13 +1,24 @@
 import { Button } from "antd";
 import "./App.css";
 import HeaderComponent from "./components/Header";
-import { AndroidOutlined } from "@ant-design/icons";
+
 import FooterComponent from "./components/Footer";
 import OurClientComponent from "./components/OurClient";
+import { Helmet } from "react-helmet-async";
 
 export default function Home() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>PETRONEUS SAYUDI & ASSOCIATES</title>
+        <meta
+          name="description"
+          content="bekerja secara profesional dan didukung oleh tenaga-tenaga yang
+            memiliki kualifikasi di bidang hukum pidana, perdata, perusahaan,
+            perburuhan serta berpengalaman dalam dunia Litigasi"
+        />
+      </Helmet>
       <HeaderComponent />
       <div className="h-[auto] md:h-[100vh] bg-[url('/Hero.svg')] bg-cover w-[100%] md:w-full px-[20px] md:px-[0px] pb-[50px] ">
         <div className=" md:w-[35%] relative left-[0px] md:left-[80px] top-[40px] md:top-[100px] ">
@@ -29,7 +40,7 @@ export default function Home() {
           </Button>
         </div>
       </div>
-      <div className="bg-[url('/aboutus1.svg')] h-[604px] w-full bg-cover px-[24px] md:px-[80px] py-[50px] md:py-[131px] h-[auto]">
+      <div className="bg-[url('/aboutus1.svg')]  w-full bg-cover px-[24px] md:px-[80px] py-[50px] md:py-[131px] h-[auto]">
         <div className="w-full md:w-[50%] max-[869px]">
           <p className="text-[#07152A] font-[Poppins] text-[32px] md:text-[40px] font-bold leading-[32px] pb-[32px]">
             Tentang Kami
@@ -306,7 +317,7 @@ export default function Home() {
                 </div>
               </div> */}
             </div>
-            <div className="bg-[#1F2732] py-[58px] px-[49px] bg-[#1F2732] w-auto">
+            <div className="bg-[#1F2732] py-[58px] px-[49px]  w-auto">
               <div className="border-b-[1px] border-b-solid border-b-[#3A4553]">
                 <p className="text-[white] text-[24px] md:text-[32px] font-bold leading-[114%] pb-[8px]">
                   PIDANA
