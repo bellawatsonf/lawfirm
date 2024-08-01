@@ -16,26 +16,27 @@ export default function AboutUs() {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>PETRONEUS SAYUDI & ASSOCIATES</title>
         <meta name="robots" content="follow, index" />
-
-        <meta name="author" content="Tentang PETRONEUS SAYUDI & ASSOCIATES" />
-        <meta
-          name="keywords"
-          content="PETRONEUS SAYUDI & ASSOCIATES Law Office"
-        />
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
-        <meta
-          property="og:title"
-          content="PETRONEUS SAYUDI & ASSOCIATES Lawfirm"
-        />
-        <meta property="og:image" content="/Icon.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+          PETRONEUS SAYUDI & ASSOCIATES - Pelayanan Hukum Profesional
+        </title>
         <meta
           name="description"
-          content="bekerja secara profesional dan didukung oleh tenaga-tenaga yang
-            memiliki kualifikasi di bidang hukum pidana, perdata, perusahaan,
-            perburuhan serta berpengalaman dalam dunia Litigasi"
+          content="PETRONEUS SAYUDI & ASSOCIATES memiliki dedikasi tinggi dan selalu bekerja berdasarkan profesionalisme dalam memberikan pelayanan hukum pada klien."
         />
+        <meta
+          property="og:title"
+          content="PETRONEUS SAYUDI & ASSOCIATES - Pelayanan Hukum Profesional"
+        />
+        <meta
+          property="og:description"
+          content="PETRONEUS SAYUDI & ASSOCIATES memiliki dedikasi tinggi dan selalu bekerja berdasarkan profesionalisme dalam memberikan pelayanan hukum pada klien."
+        />
+        <meta property="og:url" content="https://www.psalawoffice.com" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="URL_TO_YOUR_IMAGE" />
+        <link rel="canonical" href="https://www.psalawoffice.com" />
       </Helmet>
       <HeaderComponent />
       <div className="bg-[url('/AboutUs.svg')]  h-[auto] md:h-[480px] px-[80px] pt-[70px] md:pt-[186px] pb-[40px] md:pb-[0px] bg-cover">
