@@ -17,7 +17,8 @@ export default function AboutUs() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>PETRONEUS SAYUDI & ASSOCIATES</title>
-        <meta name="robots" content="follow, index"></meta>
+        <meta name="robots" content="follow, index" />
+
         <meta name="author" content="Tentang PETRONEUS SAYUDI & ASSOCIATES" />
         <meta
           name="keywords"
